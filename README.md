@@ -19,13 +19,13 @@ npm.cmd run dev
 
 Abra o endereço exibido no terminal. Para gerar uma versão de produção, execute `npm run build`. Para conferir essa versão localmente, execute `npm run preview`.
 
-## O que apresentar
+## Como testar
 
-1. Na página inicial, navegue pelas imagens, mostre as coleções e os oito produtos em alta.
+1. Na página inicial, navegue pelas imagens, veja as coleções e os oito produtos em alta.
 2. Digite **Nike** na busca do cabeçalho e pressione Enter. A rota muda para `/products?filter=Nike`.
-3. Em **Produtos**, mostre como os filtros mudam a quantidade de resultados e ordene pelo menor preço. Limpe a busca para voltar ao catálogo inteiro.
-4. Abra o primeiro tênis e alterne entre as miniaturas. Escolha tamanho e cor, adicione ao carrinho, altere a quantidade e finalize um pedido com dados fictícios. Confira a confirmação e recarregue a página **Meus Pedidos**.
-5. Reduza a largura da janela para demonstrar a adaptação do catálogo ao celular.
+3. Em **Produtos**, veja como os filtros mudam a quantidade de resultados e ordene pelo menor preço. Limpe a busca para voltar ao catálogo inteiro.
+4. Abra o primeiro tênis e alterne entre as miniaturas. Escolha o tamanho e a cor e clique em **Comprar** para demonstrar a validação.
+5. Teste no celular
 
 ## Como o código funciona
 
