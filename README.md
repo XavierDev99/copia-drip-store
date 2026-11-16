@@ -2,7 +2,7 @@
 
 Vitrine responsiva de uma loja de moda, desenvolvida em React para o projeto final de Front-end da Digital College.
 
-**Integrantes:** preencha aqui o nome completo de cada integrante antes da entrega.
+**Integrante:** Jessé Almeida Medeiros
 
 ## Como executar
 
