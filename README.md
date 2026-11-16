@@ -37,11 +37,6 @@ Abra o endereço exibido no terminal. Para gerar uma versão de produção, exec
 
 O carrinho, o perfil e os pedidos persistem neste navegador via localStorage. O cupom de teste DRIP10 aplica 10% de desconto. O frete é gratuito na simulação. O acesso é uma simulação por e-mail e o pagamento é demonstrativo. Use dados fictícios. A vitrine consulta o endpoint HTTP `GET /api/products`. No desenvolvimento, o Vite serve esse endpoint. No deploy, a Vercel executa a função em `api/products.js`. Se a API ficar indisponível, a loja usa os mesmos dados de exemplo como reserva.
 
-## Entrega
-
-Preencha os nomes dos integrantes, crie um repositório separado para a loja no seu GitHub e envie a pasta do projeto, incluindo `src` e `public`. As pastas `node_modules` e `dist` são geradas pelas ferramentas e ficam fora do controle de versão. Depois, confira se o professor consegue acessar o link.
-
-Se fizer deploy, configure a hospedagem para servir `index.html` também nas rotas internas da aplicação, por exemplo `/product/1`.
 
 ## Referências
 
