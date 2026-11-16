@@ -33,9 +33,9 @@ Abra o endereço exibido no terminal. Para gerar uma versão de produção, exec
 - `src/pages/Layout.jsx` renderiza o cabeçalho, a página atual e o rodapé. O conteúdo da página chega ao layout pela prop `children`.
 - `src/pages/ProductListingPage.jsx` lê a busca e os filtros da URL. A lista usa `filter` e a ordenação considera o preço com desconto quando disponível.
 - `src/components/Catalog.jsx` reúne os componentes de seção, cartão, listagem, galeria, filtros, opções e caixa de compra. A galeria guarda a imagem atual com `useState`.
-- `src/data/catalog.js` concentra os produtos fictícios. Para praticar, altere o nome ou preço de um produto e confira a mudança nas três páginas.
+- `src/data/catalog.js` transforma os dados da API nos produtos da vitrine. O catálogo de exemplo fica em `src/data/catalogEntries.js`. Para praticar, altere o nome ou preço de um produto e confira a mudança nas três páginas.
 
-O carrinho, o perfil e os pedidos persistem neste navegador via localStorage. O cupom de teste DRIP10 aplica 10% de desconto. O frete é gratuito na simulação. O acesso é uma simulação por e-mail e o pagamento é demonstrativo. Use dados fictícios. O catálogo usa dados locais.
+O carrinho, o perfil e os pedidos persistem neste navegador via localStorage. O cupom de teste DRIP10 aplica 10% de desconto. O frete é gratuito na simulação. O acesso é uma simulação por e-mail e o pagamento é demonstrativo. Use dados fictícios. A vitrine consulta o endpoint HTTP `GET /api/products`. No desenvolvimento, o Vite serve esse endpoint. No deploy, a Vercel executa a função em `api/products.js`. Se a API ficar indisponível, a loja usa os mesmos dados de exemplo como reserva.
 
 ## Entrega
 
