@@ -1,6 +1,6 @@
 # Drip Store
 
-Vitrine responsiva de uma loja de moda, desenvolvida em React para o projeto final de Front-end da Digital College.
+Vitrine responsiva de uma loja de moda, desenvolvida em React para o projeto front end do curso fullstack online da iel.
 
 **Integrante:** Jessé Almeida Medeiros
 
@@ -11,6 +11,10 @@ Instale o Node.js 22 LTS ou mais recente e abra um terminal na pasta que contém
 ```sh
 npm install
 npm run dev
+se não rodar com os dois comandos acima, use esses: 
+npm.cmd install
+npm.cmd run dev
+
 ```
 
 Abra o endereço exibido no terminal. Para gerar uma versão de produção, execute `npm run build`. Para conferir essa versão localmente, execute `npm run preview`.
